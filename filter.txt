@@ -1,0 +1,8 @@
+[0:v]
+format=rgb24,
+dnn_processing=
+	dnn_backend=torch:
+	model=trace_test.pt:
+	output=y,
+format=nv12,
+hwupload;
